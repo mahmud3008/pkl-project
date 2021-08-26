@@ -8,7 +8,39 @@
                  <i class="nav-icon fas fa-tachometer-alt"></i>
                  <p>
                      Dashboard
+                 </p>
+             </a>
+         </li>
+         <li class="nav-header">Menu Utama</li>
+         <li class="nav-item">
+             <a href="#" class="nav-link">
+                 <i class="nav-icon fas fa-copy"></i>
+                 <p>
+                     Master Data
+                     <i class="fas fa-angle-left right"></i>
+                 </p>
+             </a>
+             <ul class="nav nav-treeview">
+                 <li class="nav-item">
+                     <a href="../layout/top-nav.html" class="nav-link">
+                         <i class="far fa-circle nav-icon"></i>
+                         <p>Data Guru</p>
+                     </a>
+                 </li>
+                 <li class="nav-item">
+                     <a href="../layout/top-nav.html" class="nav-link">
+                         <i class="far fa-circle nav-icon"></i>
+                         <p>Data Karyawan</p>
+                     </a>
+                 </li>
 
+             </ul>
+         </li>
+         <li class="nav-item">
+             <a href="#" class="nav-link">
+                 <i class="nav-icon fas fa-th"></i>
+                 <p>
+                     Rekap Absen
                  </p>
              </a>
          </li>
@@ -16,46 +48,55 @@
              <a href="#" class="nav-link">
                  <i class="nav-icon fas fa-th"></i>
                  <p>
-                     Widgets
-                     <span class="right badge badge-danger">New</span>
+                     Rekap Jurnal
                  </p>
              </a>
          </li>
          <li class="nav-item">
              <a href="#" class="nav-link">
-                 <i class="nav-icon fas fa-copy"></i>
+                 <i class="nav-icon fas fa-th"></i>
                  <p>
-                     Layout Options
-                     <i class="fas fa-angle-left right"></i>
-                     <span class="badge badge-info right">6</span>
+                     Absensi
                  </p>
              </a>
-             <ul class="nav nav-treeview">
-                 <li class="nav-item">
-                     <a href="../layout/top-nav.html" class="nav-link">
-                         <i class="far fa-circle nav-icon"></i>
-                         <p>Top Navigation</p>
-                     </a>
-                 </li>
-
-             </ul>
+         </li>
+         <li class="nav-item">
+             <a href="#" class="nav-link">
+                 <i class="nav-icon fas fa-th"></i>
+                 <p>
+                     Jurnal Harian
+                 </p>
+             </a>
+         </li>
+         <li class="nav-item">
+             <a href="#" class="nav-link">
+                 <i class="nav-icon fas fa-th"></i>
+                 <p>
+                     Profil
+                 </p>
+             </a>
          </li>
 
 
-         <li class="nav-header">MISCELLANEOUS</li>
+         <li class="nav-header">Utillity</li>
          <li class="nav-item">
              <a href="../../iframe.html" class="nav-link">
                  <i class="nav-icon fas fa-ellipsis-h"></i>
-                 <p>Tabbed IFrame Plugin</p>
+                 <p>Setting</p>
              </a>
          </li>
          <li class="nav-item">
              <a href="https://adminlte.io/docs/3.1/" class="nav-link">
                  <i class="nav-icon fas fa-file"></i>
-                 <p>Documentation</p>
+                 <p>RBAC</p>
              </a>
          </li>
-         <li class="nav-header">MULTI LEVEL EXAMPLE</li>
+         <li class="nav-item">
+             <a href="../../iframe.html" class="nav-link">
+                 <i class="nav-icon fas fa-ellipsis-h"></i>
+                 <p>Log Out</p>
+             </a>
+         </li>
 
      </ul>
  </nav>
